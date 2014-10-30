@@ -31,7 +31,7 @@
 
 struct Integral
 {
-    operator const int();   //  meaningles, it will be ignored by compiler.
+    operator const int();   //  meaningles, it will be ignored by compiler. //sometimes the compiles will excute this
     operator int() const;   // promising that this operator will not change the state of the obj
 };
 
